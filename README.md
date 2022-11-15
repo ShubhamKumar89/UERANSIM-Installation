@@ -15,7 +15,7 @@ chmod 777 install.sh
 ./install.sh
 ```
 
-After successfully building the UERANSIM, the output binaries will be copied to ~/UERANSIM/build folder. Those are:
+After successfully building the UERANSIM, the output binaries will be copied to `UERANSIM/build/` folder. Those are:
 
 1. **nr-gnb**       | Main executable for 5G gNB (RAN)
 2. **nr-ue**        | Main executable for 5G UE
@@ -25,6 +25,6 @@ After successfully building the UERANSIM, the output binaries will be copied to 
 
 Run `nr-gnb` and `nr-ue` to start using UE and gNB. But before that, you need to config some parameters to connect it to the Core and the UE.
 
-nr-binder and libdevbnd.so are only required for binding UEs internet connectivity to an arbitrary application, and generally not used.
+`nr-binder` and `libdevbnd.so` are only required for binding UEs internet connectivity to an arbitrary application, and generally not used.
 
 You can use some example configuration files located at `config` folder or write your own file. But configuration in parameters are must. For more details how/what to configuration, check out the [main page](https://github.com/aligungr/UERANSIM/wiki/Configuration).
