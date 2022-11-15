@@ -11,6 +11,8 @@ Shell Script to install UERANSIM. [Source](https://github.com/aligungr/UERANSIM/
 ## Installation
 
 ```bash
+git clone https://github.com/ShubhamKumar89/UERANSIM-Installation
+cd UERANSIM-Installation/
 chmod 777 install.sh
 ./install.sh
 ```
